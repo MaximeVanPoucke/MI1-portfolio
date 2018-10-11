@@ -1,0 +1,45 @@
+ANTWOORDEN OPGAVE 1: Chrome developer tools 
+1.1 Elementen en opmaak
+Open http://www.dock	x.be/nl/ in Chrome; open de developer tools. Zet de browser op volle breedte, anders kloppen de afmetingen niet. Je ziet het tabblad Elements, met bovenaan een panel met HTML code en onderaan een viertal tabbladen, waarvan Styles de voornaamste is voor deze oefening. Een element inspecteren kan via de rechtermuisknop, of met deze knop: 
+ 
+figuur 1.2: Inspect knop
+Beantwoord nu deze vragen:
+•	Wat zijn de afmetingen van het logo: 185px x 85px
+•	Wat zijn de afmetingen van de header: 1000px x 113px
+•	Wat is de witruimte boven de header (‘top margin’): 25px
+•	Wat is de witruimte links binnen de header (‘left padding): 5px
+•	Wat is de randdikte van de header: 1px
+•	Welke achtergrondkleur heeft de box rond het zoekvenster: #E7BC20
+•	Welk element is gebruikt voor de titel “PERSONENWAGENS”: h1, h2 of h3: h3
+•	Welke lettergrootte is gebruikt voor de titel “PERSONENWAGENS”: 17px
+Wat is de lettergrootte in de mobiele versie: 15px
+•	Download de achtergrondafbeelding van deze pagina; wat zijn de afmetingen: 1900px x 625px 
+Je kunt niet alleen code inspecteren, maar ook experimenteren met wijzigingen (die uiteraard verloren gaan bij het herladen van de pagina): 
+•	Zet een uitroepteken achter de tekst ‘Zoeken’
+•	Maak het zoekvenster iets breder
+•	Verwijder het hele blok ‘Personenwagens’
+1.2 Netwerk en bronnen
+Herlaad de pagina http://www.dockx.be/nl/. Doe een harde refresh om de cache te omzeilen (Shift-Ctrl-R op PC, Command-Shift-R op MAC). Op het tabblad Network:
+•	Wat is de totale datatransfer: 1.3 MB
+•	Hoe lang is de totale laadtijd: 38.43 s
+•	Hoeveel requests zijn er in totaal gebeurd voor deze ene pagina: 196
+•	Welke request heeft de langste laadtijd: tekst/html (420ms) 
+•	Welke request is de grootste in KB: jpeg (125 KB)
+•	Hoeveel daarvan zijn CSS requests: 8
+•	Hoeveel KB aan scripts (JS: Javascript) bevat deze pagina: 47 KB
+Op het tabblad Application: 
+•	Wis de cookies van deze pagina
+•	(onder Frames/top) Welk lettertype (“font”) is gebruikt: Bold Webfont
+•	(onder Frames/top) Zoek het logo; welke afmetingen heeft het: 185px x 85px
+Op het tabblad Security: 
+•	Welke organisatie heeft het HTTPS server certificaat uitgegeven: COMODO RSA Domain Validation Secure Server CA 
+1.3 Debuggen, testen en valideren
+Op het tabblad Console: 
+•	Hoeveel fouten zijn er? 1 En hoeveel warnings? 1
+Op het tabblad Audit: 
+•	Voer een audit uit op de homepagina. Welke scores haalt deze pagine:
+performantie: 58
+toegankelijkheid: 62
+best practices: 73
+•	Noem één suggestie om de performantie van deze pagina te verbeteren:
+
